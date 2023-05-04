@@ -1,4 +1,10 @@
 
+body{
+    background-image: url(image/FV3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ; 
+}
+
 // Barra Funções-------------------
 
 .navbar{
@@ -31,12 +37,14 @@ li{
 .nav-link:hover{
     color: #D80841;
 }
+#pesquisa{
+    width: 16rem;
+    border-radius: 5px;
+}
 
 //---------------------------------
+/* OUTROS */
 
-.card-header {
-    background-color: #77193e;
-}
 .salamandra{
     margin: 3rem;
     
@@ -47,6 +55,26 @@ li{
     height: 5rem;
     padding: 1rem 1rem;
 }
-.image{
-    margin: 20px;
+/* CARDS--------------------------------------- */
+
+.card-body{
+    background-image: url(image/FV2.jpg);
+}
+.card-header{
+    text-align: center;
+    color: #D80841;
+    background-color: #010320;
+}
+/* ---------------------------------------------- */
+.pe{
+    height: 6rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #D80841;
+    background-color:#010320;
+}
+
+.pet{
+    padding-top: 2rem;
+    font-size: 1.5rem;
 }
